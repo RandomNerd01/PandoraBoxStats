@@ -35,12 +35,25 @@
 
 
 
-
-4) After adding in all players into the team, u can see overall team stats.
-
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/acefc4d8-3bd3-4fb5-98c5-bcf785da13ba)
 
 
 
+
+
+
+
+
+
+
+
+4) After adding in all players into the team, u can see overall team stats by clicking 'fetch team stats'.
+
+
+
+
+
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/4a501978-676f-406c-90a8-1023784775f0)
 
 
 
@@ -49,6 +62,9 @@
 
 
 5) After adding players to all teams and checking the stats for every team, u can compare all teams by clicking button at bottom
+
+
+
 
 
 ![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/fac946e5-cdff-4a52-8770-a12feb0f17a4)
