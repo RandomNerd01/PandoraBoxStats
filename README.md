@@ -18,7 +18,9 @@
 
 
 
-![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/f9a2ab34-5374-4ede-b4ca-61ea3a8c7694)
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/e4e2d488-3e82-4f9e-8c5b-1f89fbe2cbe6)
+
+
 
 
 
@@ -28,7 +30,7 @@
 
 
 
-![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/5bb6c4b2-107b-4b11-9239-83185d66ea88)
+
 
 
 
@@ -40,7 +42,7 @@
 
 
 
-![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/5a752136-7b27-4d40-9cf7-3bdd6ef637b7)
+
 
 
 
@@ -50,6 +52,8 @@
 
 
 ![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/fac946e5-cdff-4a52-8770-a12feb0f17a4)
+
+
 
 
 
