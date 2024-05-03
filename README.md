@@ -78,7 +78,8 @@ Then it will display a popup that will rank all teams from 1 to 8 based on point
 
 
 
-![image](https://github.com/Suiron99/BlockWarsStats/assets/142955018/90f7b1a1-99d6-4c75-8445-9c8d04a3eaa4)
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/e9837ddb-05c5-4bd2-8e8a-d89027c79f5f)
+
 
 
 
