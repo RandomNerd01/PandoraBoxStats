@@ -1,0 +1,22 @@
+.icon {
+    position: absolute;
+    top: 10px; /* Adjust top position as needed */
+    right: 10px; /* Adjust right position as needed */
+    width: 120px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 999; /* Ensure the icon appears above other content */
+}
+.arrow-link {
+  position: absolute;
+  bottom: -200px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 999; /* Ensure the arrow is above other content */
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #000; /* Adjust color as needed */
+}

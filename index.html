@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Event Pandora's Box Team Balancing (Placements)</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS for the title */
+        h1 {
+            text-align: center; /* Center align the text */
+            font-size: 3em; /* Set the font size to make it big */
+            margin-top: 50px; /* Add some top margin */
+            color: darkgoldenrod; /* Set the color to dark yellow */
+        }
+    </style>
+</head>
+<body>
+<h1>Pandora's Box Player/Team Average Points</h1>
+<a href="https://pandoras-box-event.fandom.com/wiki/Pandora%27s_Box_Event_Wiki" target="_blank"> 
+        <img src="icon.png" alt="Icon" class="icon"> 
+    </a>
+<a href="index1.html" class="arrow-link">
+    <div class="arrow"></div>
+</a>
+<!-- Reset button -->
+<button id="resetButton">Clear Page</button>
+
+
+
+<datalist id="players">
+    <option value="4CVIT">
+    <option value="5pxrky">
+    <option value="5up">
+    <option value="ActuallyNarwhal">
+    <option value="Ameston">
+    <option value="Antfrost">
+    <option value="Anthos">
+    <option value="AvaJC">
+    <option value="Awre">
+    <option value="baseballdrew">
+    <option value="blueskiesclub">
+    <option value="Boosfer">
+    <option value="C10WD">
+    <option value="celestialrain">
+    <option value="CGQ">
+    <option value="Couriway">
+    <option value="craftclan">
+    <option value="CxrtxR">
+    <option value="DONG_FORTNITE">
+    <option value="EpicFH">
+    <option value="fayewars">
+    <option value="Feinberg">
+    <option value="FireBreathMan">
+    <option value="fruitberries">
+    <option value="Fulham">
+    <option value="ghostiefruit">
+    <option value="gummywroms">
+    <option value="Heliodor">
+    <option value="IRONSTARR">
+    <option value="ItsNitroTiger">
+    <option value="ItzIgglesPiggles">
+    <option value="Kaelan">
+    <option value="Kaizo">
+    <option value="Kaos21a">
+    <option value="Kelawesome">
+    <option value="KendallWasKilled">
+    <option value="KyleEff">
+    <option value="Lantastic">
+    <option value="Lihzahrd">
+    <option value="LockieNess">
+    <option value="Loefars">
+    <option value="lopsidedhead">
+    <option value="LucarioKnight">
+    <option value="LucyHexes">
+    <option value="ManWithRaft">
+    <option value="MCmorganplayz">
+    <option value="MisticSins">
+    <option value="MysteryTwins15">
+    <option value="Mysticat">
+    <option value="Noname4297">
+    <option value="NotSouls">
+    <option value="Nukeri">
+    <option value="oGarfield">
+    <option value="Pixelcraftian">
+    <option value="President Poundcake">
+    <option value="Purpled">
+    <option value="Reddoons">
+    <option value="RemoteBirch5">
+    <option value="ricekristys">
+    <option value="RyanBurger">
+    <option value="SakuraRadio">
+    <option value="SandwichLord">
+    <option value="Seapeekay">
+    <option value="slimeshockey">
+    <option value="SMK64">
+    <option value="Standen05">
+    <option value="steinbulf">
+    <option value="TedsAttic">
+    <option value="ThatsJ">
+    <option value="Toph033">
+    <option value="TSchone12">
+    <option value="TVManGriffin">
+    <option value="ubhi">
+    <option value="Wolfeei">
+    <option value="Wylbert">
+    <option value="xShatter">
+    <option value="Yawnchamp">
+    <option value="ZhuRuho">
+    <option value="Allyscaprisuns">
+    <option value="animagician">
+    <option value="Apden">
+    <option value="CAAJBE">
+    <option value="Crypt3dx">
+    <option value="EwItsHarper">
+    <option value="Greninja">
+    <option value="HugeGuyTim">
+    <option value="Lilyismom">
+    <option value="Loopie">
+    <option value="MasterGarf">
+    <option value="McBigMacPlayz">
+    <option value="MystikOwl">
+    <option value="Nikikup">
+    <option value="PrinceZam">
+    <option value="RektDJ">
+    <option value="snsteph">
+    <option value="ThatVirgo">
+    <option value="ZoomingZap">
+    <option value="Blazicat">
+    <option value="Brinkz">
+    <option value="CammyB">
+    <option value="Catkin">
+    <option value="Chxotic_Max">
+    <option value="Coatpeg">
+    <option value="Eman">
+    <option value="Evasixe">
+    <option value="Fr05st">
+    <option value="Fruitran">
+    <option value="Germina">
+    <option value="ilovenons">
+    <option value="Katnapz">
+    <option value="KirbeeCharacter">
+    <option value="MacleBacle">
+    <option value="Maddie Awesome">
+    <option value="MainSequenceStar">
+    <option value="Maskyzee">
+    <option value="Misscomunication">
+    <option value="Momo123">
+    <option value="MxAero">
+    <option value="Oliviarod">
+    <option value="Quintinova">
+    <option value="Rambells">
+    <option value="Shalomanon">
+    <option value="Snakevnm">
+    <option value="SophieMeows">
+    <option value="Spacebr0wnies">
+    <option value="Teekwast">
+    <option value="TheWibbageWizard">
+    <option value="Wosqe">
+    <option value="Yeef">
+</datalist>
+
+<!-- Team 1 -->
+<section id="team1">
+    <h2>Team 1</h2>
+    <input type="text" id="team1Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="1">Fetch Player Stats</button>
+    <input type="text" id="team1Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="1">Fetch Player Stats</button>
+    <input type="text" id="team1Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="1">Fetch Player Stats</button>
+    <input type="text" id="team1Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="1">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="1">Fetch Team Stats</button><br>
+    <p id="team1Points">Team 1 Points: 0</p>
+</section>
+
+<!-- Team 2 -->
+<!-- Team 2 -->
+<section id="team2">
+    <h2>Team 2</h2>
+    <input type="text" id="team2Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="2">Fetch Player Stats</button>
+    <input type="text" id="team2Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="2">Fetch Player Stats</button>
+    <input type="text" id="team2Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="2">Fetch Player Stats</button>
+    <input type="text" id="team2Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="2">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="2">Fetch Team Stats</button><br>
+    <p id="team2Points">Team 2 Points: 0</p>
+</section>
+
+
+<!-- Team 3 -->
+<!-- Team 3 -->
+<section id="team3">
+    <h2>Team 3</h2>
+    <input type="text" id="team3Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="3">Fetch Player Stats</button>
+    <input type="text" id="team3Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="3">Fetch Player Stats</button>
+    <input type="text" id="team3Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="3">Fetch Player Stats</button>
+    <input type="text" id="team3Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="3">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="3">Fetch Team Stats</button><br>
+    <p id="team3Points">Team 3 Points: 0</p>
+</section>
+
+
+<!-- Team 4 -->
+<section id="team4">
+    <h2>Team 4</h2>
+    <input type="text" id="team4Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="4">Fetch Player Stats</button>
+    <input type="text" id="team4Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="4">Fetch Player Stats</button>
+    <input type="text" id="team4Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="4">Fetch Player Stats</button>
+    <input type="text" id="team4Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="4">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="4">Fetch Team Stats</button><br>
+    <p id="team4Points">Team 4 Points: 0</p>
+</section>
+
+
+<!-- Team 5 -->
+<section id="team5">
+    <h2>Team 5</h2>
+    <input type="text" id="team5Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="5">Fetch Player Stats</button>
+    <input type="text" id="team5Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="5">Fetch Player Stats</button>
+    <input type="text" id="team5Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="5">Fetch Player Stats</button>
+    <input type="text" id="team5Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="5">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="5">Fetch Team Stats</button><br>
+    <p id="team5Points">Team 5 Points: 0</p>
+</section>
+
+
+<!-- Team 6 -->
+<section id="team6">
+    <h2>Team 6</h2>
+    <input type="text" id="team6Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="6">Fetch Player Stats</button>
+    <input type="text" id="team6Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="6">Fetch Player Stats</button>
+    <input type="text" id="team6Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="6">Fetch Player Stats</button>
+    <input type="text" id="team6Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="6">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="6">Fetch Team Stats</button><br>
+    <p id="team6Points">Team 6 Points: 0</p>
+</section>
+
+
+<!-- Team 7 -->
+<section id="team7">
+    <h2>Team 7</h2>
+    <input type="text" id="team7Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="7">Fetch Player Stats</button>
+    <input type="text" id="team7Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="7">Fetch Player Stats</button>
+    <input type="text" id="team7Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="7">Fetch Player Stats</button>
+    <input type="text" id="team7Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="7">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="7">Fetch Team Stats</button><br>
+    <p id="team7Points">Team 7 Points: 0</p>
+</section>
+
+
+<!-- Team 8 -->
+<!-- Team 8 -->
+<section id="team8">
+    <h2>Team 8</h2>
+    <input type="text" id="team8Player1" list="players" placeholder="Player 1">
+    <button class="fetchPlayerStatsBtn" data-team="8">Fetch Player Stats</button>
+    <input type="text" id="team8Player2" list="players" placeholder="Player 2">
+    <button class="fetchPlayerStatsBtn" data-team="8">Fetch Player Stats</button>
+    <input type="text" id="team8Player3" list="players" placeholder="Player 3">
+    <button class="fetchPlayerStatsBtn" data-team="8">Fetch Player Stats</button>
+    <input type="text" id="team8Player4" list="players" placeholder="Player 4">
+    <button class="fetchPlayerStatsBtn" data-team="8">Fetch Player Stats</button>
+    <button class="fetchTeamStatsBtn" data-team="8">Fetch Team Stats</button><br>
+    <p id="team8Points">Team 8 Points: 0</p>
+</section>
+<!-- Compare all teams button -->
+<button id="compareAllTeamsBtn">Compare All Teams</button>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
