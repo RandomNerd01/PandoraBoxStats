@@ -1,6 +1,10 @@
 # Pandora's Box Team Stats/ Team Balancing Tool
 
+## Problems to address
 
+Cors restrictions cannot be bypassed. 
+
+1-time players do not have average stats in their wiki page.
 
 
 
