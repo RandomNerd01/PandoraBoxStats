@@ -1,6 +1,32 @@
 # Pandora's Box Team Stats/ Team Balancing Tool
 
 
+## 2 Different Team Balacing Tools
+
+
+1) Based on Average Points
+
+
+
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/73fa6808-4564-46f2-9e1e-b83f28de0939)
+
+
+
+2) Based on Average Placement
+
+
+
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/d3a46a99-a74f-42a3-8dd3-8a86683fecd9)
+
+
+
+3) Switch Between Both by clicking the Arrow at Bottom Right of the page
+
+
+
+
+
+![image](https://github.com/RandomNerd01/PandoraBoxStats/assets/142955018/cb40f5f8-e172-4166-a3b9-a96839969eb5)
 
 
 
