@@ -1,8 +1,6 @@
 # Pandora's Box Team Stats/ Team Balancing Tool
 
-## Problems to address
 
-1-time players do not have average stats in their wiki page.
 
 
 
