@@ -116,6 +116,9 @@ Then it will display a popup that will rank all teams from 1 to 8 based on point
 
 
 
+## Cors Error
+
+Using Cors Proxy Server from https://github.com/netnr/proxy
 
 
 
